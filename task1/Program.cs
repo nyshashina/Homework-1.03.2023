@@ -10,8 +10,9 @@ void ThreeSymEls(string newstring)
         {
             otherstring[i] = subs[i];
         }
-        Console.Write($"{otherstring[i] }");
+        Console.Write($"{otherstring[i]} ");
     }
+    Console.WriteLine();
 }
 
 Console.WriteLine("Введите строки массива, разделив их кавычками");
